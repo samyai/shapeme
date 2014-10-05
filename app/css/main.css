@@ -1,0 +1,81 @@
+.img-rounded {
+    padding-bottom: 10px;
+}
+
+
+.facebook-icon {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAQAAACRZI9xAAAAk0lEQVQoz9XOsQpBYRgG4HMNys5uNOESjCaj2WCxugKdUSmiFKFcgMHmFhST3ASKHtPp9HcOu/dbvt6e4Y1EwRX0TUzMtJMuBEVHScb5pCfNKJ8swElLUyWfLME83Je+JXUHsFfTUM6S2MMbvNw9DbJkKkw3SzrWbuBqZaT6a+7i29xIZANW/0J2YPuLDJ1dxCH5AGe5aiXrXSibAAAAAElFTkSuQmCC");
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    top:3px;
+    right:3px;
+}
+
+.gplus-icon {
+    background-image: url("/images/gplus.png");
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    background-size: cover;
+    top:3px;
+    right:3px;
+}
+
+#intro {
+    background: url("/images/cross_blur.jpg") 50% 0 fixed;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    background-size: cover;
+}
+#home {
+    background: url("/images/park_blur.jpg") 50% 0 fixed;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+}
+#about {
+    background: url("/images/about.png") 50% 0 fixed;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+}
+.header {
+    background: url("/images/about.png") 50% 0 fixed;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    color: #fff;
+}
+#devices {
+    background: url("/images/road_blur.jpg") 50% 0 fixed;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    background-size: cover;
+}
+
+
+/* Non-essential demo stuff */
+.hero-unit {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.media-object { width: 64px; height: 64px; padding-bottom: 30px }
+
+.header .page-header {
+    margin: 0;
+    border-bottom: solid 0px #000000;
+}
