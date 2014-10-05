@@ -1,4 +1,4 @@
-<div class="col-sm-12" style="background-color: white; padding-top: 15px;">
+<div class="col-sm-12" style="background-color: white; padding-top: 30px;">
     <div class="col-sm-3">
         <div class="">
             <img src="/images/samya.jpg" class="img-rounded">
@@ -6,15 +6,15 @@
             <p class="training-since"><span class="glyphicon glyphicon-time"></span> S'entraine depuis le 20 jan 2012</p>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <h1>5</h1>
+                    <h1><a href="#">5</a></h1>
                     <span class="text-muted">amis</span>
                 </div>
                 <div class="col-sm-4">
-                    <h1>6.7</h1>
+                    <h1><a href="#">6.7</a></h1>
                     <span class="text-muted">km/h en moyenne</span>
                 </div>
                 <div class="col-sm-4">
-                    <h1>3</h1>
+                    <h1><a href="#">3</a></h1>
                     <span class="text-muted">series / semaine</span>
                 </div>
             </div>
@@ -40,9 +40,10 @@
             </div>
         </div>
         <div class="panel panel-default">
-            <div class="panel-heading">Votre activité</div>
+            <div class="panel-heading"><span class="glyphicon glyphicon-time"></span>&nbsp; Votre activité</div>
             <div class="panel-body">
                 <img src="/images/calendar.png" style="width: 100%;">
+                <a class="pull-right"><span class="glyphicon glyphicon-list-alt"></span> &nbsp;Voir en détail</a>
             </div>
             <ul class="list-group">
                 <li class="list-group-item">
@@ -53,7 +54,7 @@
                             <span class="text-muted">depuis le 13/10/2014</span>
                         </div>
                         <div class="col-sm-4">
-                            <span class="text-muted">Meilleur série</span>
+                            <span class="text-muted">Meilleure série</span>
                             <h1>6</h1>
                             <span class="text-muted">jours d'affilé</span>
                         </div>
@@ -61,6 +62,76 @@
                             <span class="text-muted">Série en cours</span>
                             <h1>3</h1>
                             <span class="text-muted">jours d'affilé</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading"><span class="glyphicon glyphicon-stats"></span>&nbsp; Vos Statisques</div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="row text-center">
+                        <div class="col-sm-6">
+                            <span class="text-muted">Calories par jours</span>
+                            <div class="btn-group btn-group-xs pull-right">
+                                <button type="button" class="btn btn-default active">
+                                    <span class="glyphicon glyphicon-signal"></span>
+                                </button>
+                                <button type="button" class="btn btn-default">
+                                    <span class="glyphicon glyphicon-align-left"></span>
+                                </button>
+                            </div>
+                            <img src="/images/calories_heures.png" style="width: 100%; margin-top: 32px; height:150px;">
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="text-muted">Calories par heures</span>
+                            <div class="btn-group btn-group-xs pull-right">
+                                <button type="button" class="btn btn-default active">
+                                    <span class="glyphicon glyphicon-signal"></span>
+                                </button>
+                                <button type="button" class="btn btn-default">
+                                    <span class="glyphicon glyphicon-align-left"></span>
+                                </button>
+                            </div>
+                            <img src="/images/calories_jours.png" style="width: 100%; margin-top: 10px;">
+                            <a class="pull-right" style="margin-top:10px;"><span class="glyphicon glyphicon-signal"></span> &nbsp;Voir toutes les statistiques</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading"><span class="glyphicon glyphicon-stats"></span>&nbsp; Vos objets</div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="row text-center">
+                        <div class="col-sm-4">
+                            <h2>Smartphone</h2>
+                            <span class="text-muted">Modele: Iphone 5s</span> <div class="label label-success">Installé</div>
+                            <div>
+                                <img src="/images/iphone.png" style="height: 370px; margin-top:20px;">
+                            </div>
+                            <br/>
+                            <button class="btn disabled">Install</button>
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Pebble</h2>
+                            <div class="label label-default">Non installé</div>
+                            <div>
+                                <img src="/images/pebble_menu.jpg" style="width: 100%; margin-top: 32px;" class="img-rounded">
+                            </div>
+                            <br/>
+                            <button class="btn btn-primary">Download app</button>
+                        </div>
+                        <div class="col-sm-4">
+                            <h2>Glass</h2>
+                            <span class="text-muted">Modele: Glass V2.1</span> <div class="label label-success">Installé</div>
+                            <div>
+                                <img src="/images/glass_alone.png" style="width: 100%; margin-top: 160px;" class="img-rounded">
+                            </div>
+                            <br/>
+                            <button style="margin-top: 85px;" class="btn disabled">Install</button>
                         </div>
                     </div>
                 </li>

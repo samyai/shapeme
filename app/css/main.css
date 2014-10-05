@@ -87,3 +87,17 @@ body {
 .training-since {
     color: #888;
 }
+
+.subscribe {
+    background-color: #f35300;
+    border-color: #CF4700;
+}
+
+.subscribe:hover {
+    background-color: #f3510f;
+    border-color: #872d00;
+}
+
+.well > h2 {
+    margin-top:0;
+}
