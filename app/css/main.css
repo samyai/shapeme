@@ -2,6 +2,10 @@
     padding-bottom: 10px;
 }
 
+body {
+    background: url("/images/about.png");
+}
+
 
 .facebook-icon {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAQAAACRZI9xAAAAk0lEQVQoz9XOsQpBYRgG4HMNys5uNOESjCaj2WCxugKdUSmiFKFcgMHmFhST3ASKHtPp9HcOu/dbvt6e4Y1EwRX0TUzMtJMuBEVHScb5pCfNKJ8swElLUyWfLME83Je+JXUHsFfTUM6S2MMbvNw9DbJkKkw3SzrWbuBqZaT6a+7i29xIZANW/0J2YPuLDJ1dxCH5AGe5aiXrXSibAAAAAElFTkSuQmCC");
@@ -78,4 +82,8 @@
 .header .page-header {
     margin: 0;
     border-bottom: solid 0px #000000;
+}
+
+.training-since {
+    color: #888;
 }
